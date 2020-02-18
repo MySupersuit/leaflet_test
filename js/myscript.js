@@ -24,7 +24,7 @@ var Thunderforest_TransportDark = L.tileLayer(
 
 
 $.ajax({
-	url : "https://raw.githubusercontent.com/MySupersuit/leaflet_test/master/stops.txt",
+	url : "https://raw.githubusercontent.com/MySupersuit/leaflet_test/master/js/assets/trains/stops.txt",
 	success : function (data) {
 		parseCSV(data);
 	}
